@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    overflow: hidden;
+
+}
+.logo{
+    width: 20%;
+    background-color: rgb(250, 73, 73); 
+    float: left;
+    height: 100px; 
+    text-align: center; 
+}
+.logo h1{
+    color: #ffffff;
+    padding-top: 25px;
+    font-size: 30pt;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.banner{
+    width: 80%;
+    background-color: rgb(252, 166, 55);
+    float: right;
+    height: 100px;
+    text-align: center;
+
+}
+.banner h1{
+    color: #ffffff;
+    padding-top: 25px;
+    font-size: 30pt;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+
+}
+.header_bar{
+    background-color: rgb(54, 167, 233);
+    height: 50px;
+    text-align: center;
+}
+.header_bar h1{
+    color: #ffffff;
+    padding-top: 13px;
+    font-size: 15pt;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+.article{
+    overflow: hidden;
+
+}
+.left{
+    background-color: coral;
+    width: 20%;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+.left h1{
+    color: #ffffff;
+    padding-top: 250px;
+    font-size: 50pt;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 10px; 
+}
+.center{
+    background-color: crimson;
+    width: 60%;
+    height: 600px;
+    float: left;           /* left dileo center ae hoy */
+
+}
+.right{
+    background-color: darkgreen;
+    width: 20%;
+    height: 600px;
+    float: right;
+    text-align: center;
+}
+.right h1{
+    color: #ffffff;
+    padding-top: 250px;
+    font-size: 50pt;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 10px; 
+}
+.center-top{
+    height: 200px;
+    background-color: darkorange;
+
+}
+.center-center{
+    height: 200px;
+    background-color: darkred;
+    overflow: hidden;
+
+}
+.center-bottom{
+    height: 200px;
+    background-color: darkslateblue;
+
+}
+.center-left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(247, 68, 68);
+    float: left;
+
+}
+.center-right{
+    width: 50%;
+    height: 100%;
+    background-color: dodgerblue;
+    float: right;
+
+}
+footer{                  /* footer r header tag ase tai age . na dile hobe  */
+    background-color: rgb(80, 19, 124);
+    height: 200px;
+    margin-top: 30px;
+    text-align: center;
+}
+footer h1{
+    color: #ffffff;
+    padding-top: 70px;
+    font-size: 50pt;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
